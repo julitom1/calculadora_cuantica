@@ -14,57 +14,19 @@ Para invocar la calculadora cuantica es cuestion de llamarla como calculadora_cu
   
   Calcula el estado actual de los nodos(elementos que contiene) despues de n clicks. Recibe una matriz booleana que el uno indica que el nodo se conecta con ese nodo, una lista que es el estado inicial de cada nodo y un entero que indica el numero de clicks que se van aplicar. Retorna el estado actual de la lista.
       
-  **Inversa de vectores complejos:   inversa_vectores(lista1)**
+  **Sistemas probabilistico:   booleanoFraccion(matriz,vector,n)**
   
-  Recibe una lista y retorna una lista que contiene la inversa de la lista enviada.
+  Recibe una matriz con numeros probabilisticos para ir de un nodo a otro, un vector con las probabilidades actuales y un n que representa el numero de clicks. Retorna un vector con el sistema probabilistico de cada nodo.
   
-  **Multiplicación escalar de vectores complejos:producto_escalar(tupla1,lista1)**
+  **Renijas :booleano(matriz,vector,n)**
   
-  Recibe una tupla de longitud 2 y una lista retorna una lista que contiene la multiplicacion de la tupla con cada componente de la lista.
+    Muestra las probabilidades de llrgar a un nodo en 2 tiempos comenzando desde 0, Recibe 2 parametros n que representa el numero de renijas y m que indica los objetivos cuando pasa la renija, Devuelve la matriz en el segundo tiempo y el vector con informacion de cada nodo.
   
-  **Adición de matrices complejos: adicion_matrices(matriz1,matriz2):**
+  **Sistema probabilisitico imaginario:  booleanoFraccionimaginarios(matrizValidar,vector,numero)**
   
-  Recibe dos matrices y retorna una matriz que contiene la suma de elemento por elemento de las dos matrices enviadas.
+  Recibe na matriz llena de tuplas, donde el primer numero de la tupla representa la parte real y el segundo numero la parte imaginaria, el vector que contiene la probabilidades en numeros imaginarios y el numero que representa el numero de clicks que se le va hacer a la matriz.
+
   
-  **Inversa de matrices complejos:  inversa(matriz1)** 
-  
-  Recibe una matriz y devuelve una matriz que contiene la inversa de la matriz.
-  
-  **Multiplicación escalar de matrices complejas: multiplicacion_escalar_matrices(tupla1,matriz1)**
-  
-  Recibe una tupla y una matriz y retorna una matriz que contiene la multiplicacion de la tupla con cada componente.
-  
-  **Matriz transpuesta: transpuesta(matriz1)**
-  
-  Recibe una matriz y retorna la matriz que contiene la transpuesta de la matriz enviada
-  
-  **Matriz conjugada:           conjugada(matriz1)** 
-  
-  Recibe una matriz y retorna una matriz que contiene el signo contrario en la parte imaginaria
-  
-  **Matriz adjunta:                 adjunta(matriz1)**   
-  
-  Recibe una matriz y retorna una matrizque contiene la adjunta de la matriz enviada
-  
-  **Norma de matrices: norma(matriz)**
-  
-  Recibe una matriz y retorna un float que representa la norma de la matriz.
-  
-  **Distancia entrematrices: distancia_matrices(matriz1,matriz2)**
-  
-  Recibe 2 matrices del mismo tamaño y retorna un numero flotante que representa la distancia entre las dos matrices.
-  
-  **Revisar si es unitaria: matriz_unitaria(matriz1)**
-  
-  Recibe una matriz y retorna y retorna un booleano diciendo si es una matriz unitaria o no.
-  
-  **Revisar si es Hermitian:matriz_hermitiana(matriz)**
-  
-  Recibe una matriz y retorna y retorna un booleano diciendo si es una matriz hermitiana o no.
-  
-  **Producto tensor: producto_tensor(matriz1,matriz2)**
-  
-  Recibe 2 matrices y retorna una matriz con el producto tensor de las dos matrices enviadas.
   
  
   # Autores

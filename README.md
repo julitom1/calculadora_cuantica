@@ -19,7 +19,6 @@ Para invocar la calculadora cuantica es cuestion de llamarla como calculadora_cu
   Recibe una matriz con numeros probabilisticos para ir de un nodo a otro, un vector con las probabilidades actuales y un n que representa el numero de clicks. Retorna un vector con el sistema probabilistico de cada nodo.
   
   **Renijas :booleano(matriz,vector,n)**
-  
     Muestra las probabilidades de llrgar a un nodo en 2 tiempos comenzando desde 0, Recibe 2 parametros n que representa el numero de renijas y m que indica los objetivos cuando pasa la renija, Devuelve la matriz en el segundo tiempo y el vector con informacion de cada nodo.
   
   **Sistema probabilisitico imaginario:  booleanoFraccionimaginarios(matrizValidar,vector,numero)**

@@ -94,19 +94,17 @@ def multiRenijasimaginarios(n1,n2):
         for x in range(1,n1+1):
                 matriz[x][0]=(1/(n1**(1/2)),0)
                 for y in range(n2):
-                        r1=random.randint(0,1)
-                        r2=random.randint(0,1)
                         matriz[s][x]=(1/(n2*2)**(1/2),(1/(n2*2)**(1/2)))
                         matriz[s][s]=(1,0)
                         s+=1
                 s-=1
         vector=[[(0,0)] for x in range((n1*n2)+2)]
         vector[0][0]=(1,0)
-        matrizN=calculadora_matrices.multiplicacion_matriz(matriz,matriz)
-        vector=calculadora_matrices.multiplicacion_matriz(matrizN,vector)
-        return (matrizN,vector)
-
-
-                
-                
-        
+        for x in range(len(matriz)):
+            for y in range(len(matriz)):
+                matriz[x][y]=round(matriz[x][y][0]**2+matriz[x][y][1]**2,2)
+        #vector=calculadora_matrices.multiplicacion_matriz(matriz,vector)
+        for x in matriz:
+            print(x)
+            print("--------------")
+        return (matriz)

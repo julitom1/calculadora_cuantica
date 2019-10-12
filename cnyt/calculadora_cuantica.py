@@ -109,7 +109,4 @@ def multiRenijasimaginarios(n1,n2):
         vector=calculadora_matrices.multiplicacion_matriz(matriz,matriz)
         #vector=calculadora_matrices.multiplicacion_matriz(matriz,vector)
         matriz=calculadora_matrices.multiplicacion_matriz(matriz,matriz)
-        for x in matriz:
-            print(x)
-            print("------------")
-        #return (matriz)
+        return (matriz)
